@@ -11,8 +11,7 @@
 </head>
 
 <body>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+
 	
 	<header>
 		<section id="header-top">
@@ -28,7 +27,7 @@
 					
 					<article class="col-md-6 col-sm-12">
 						<ul class="list-inline mb-0 text-right list-top">
-							<li class="list-inline-item"><a href="#">Contact</a></li>
+							<li class="list-inline-item"><a href="contact.html">Contact</a></li>
 							<li class="list-inline-item"><a href="#">Blog</a></li>
 							<li class="list-inline-item"><a href="#">About us</a></li>
 						</ul>
@@ -58,7 +57,7 @@
 							<a class="nav-link" href="#">Portafolio</a>
 						  </li>
 						  <li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link" href="contact.html">Contact</a>
 						  </li>
 						</ul>
 					  </div>
@@ -186,7 +185,13 @@
 			<div class="row">
 				
 				<article class="col-md-4 col-sm-12">
-					<img src="img/img-strategy.jpg" alt="strategy" class="img-fluid">
+					
+					<div class="capa-relative">
+						<img src="img/img-strategy.jpg" alt="strategy" class="img-fluid">
+						<div class="capa-overlay"></div>
+					</div>
+					
+					
 					<p>Stylish typography, loads of white space, and pixel perfect design,  karter it the ultimate theme for creatives.</p>
 					<a href="#">Learn More</a>
 				</article>
@@ -207,9 +212,48 @@
 		</div>
 	</section>
 	
+	<section id="results">
+		<div class="overlay">
+			<div class="container">
+
+				<h2 class="title">We Delivery Results</h2>
+				<h3 class="subtitle">Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+				<a href="#" class="btn btn-primary">Get In Touch</a>
+			</div>
+		</div>
+	</section>
+	
 	<footer>
+		<div class="container">
+			<div class="row">
+				
+				<article class="col-md-6 col-sm-12">
+					<p>Copyright Brand Exponents 2014. All Rights Reserved</p>
+				</article>
+				
+				<article class="col-md-6 col-sm-12">
+					<ul class="list-inline mb-0 text-right list-social">
+						<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</article>
 		
+				</div>
+		</div>
 	</footer>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-99Y7BK2VS5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-99Y7BK2VS5');
+</script>
 	
 </body>
 	
